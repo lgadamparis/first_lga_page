@@ -79,7 +79,7 @@ a.btn-colored:hover {
 }
 
 .list-inline > li > a:hover {
-  color: darkolivegreen;
+  color: lightgray;
 }
 
 @media (max-width: 960px) {
