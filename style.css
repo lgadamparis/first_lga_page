@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;700&display=swap');
+
+body {
+  background-image: url("image/07082014-DSC_4754.jpg");
+  font-family: Antonio ;
+  font-weight: 700;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: Antonio ;
+  color: #94a6bd
+  ;
+}
+
+h2 {
+  color: #79b884;
+}
+
+a:hover {
+
+}
+
+p {
+  font-weight: lighter;
+  color: azure;
+}
+
+li {
+  display: inline;
+  margin: 4%;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto;
+}
+
+.card {
+  background-color:rgba(0,0, 0, 0.5);
+  padding: 40px;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.btn-colored {
+  background-color: #F05D5E;
+  padding: 8px;
+  padding: auto;
+  border-radius: 10%;
+}
+
+a.btn-colored {
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+a.btn-colored:hover {
+  color: darkolivegreen;
+}
+
+.list-inline > li > a {
+  color: lightgray;
+}
+
+.list-inline > li > a:hover {
+  color: darkolivegreen;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
